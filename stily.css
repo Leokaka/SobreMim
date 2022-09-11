@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat&family=Nunito+Sans&display=swap');
+
+/*Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #202124;
+}
+
+/*Home*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3c4043;
+}
+
+.logo {
+    font-size: 49px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    font-size: 28px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #306bff;
+}
+
+header a:hover {
+    color: #244495;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.home-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 55px;
+    padding: 25px;
+    border: 4px solid #306bff;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 40px rgb(34, 13, 70, 0.75);
+    border-radius: 10px;
+}
+
+.home-img-item {
+    width: 400px;
+    border: 2px solid #306bff;
+    box-shadow: 0px 0px 40px rgb(34, 13, 70, 0.75);
+    border-radius: 25px;
+}
+
+.home-img-item:hover {
+    transform: scale(1.075);
+    transition: 0.3s;
+
+}
+
+.fim-home {
+    border-top: 2px solid #3c4043;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.logo-rodape {
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+}
+
+.logo-rodape:hover {
+    color: #244495;
+}
+
+/*Futuro*/
+
+.futuro-carta {
+    margin: 30px 250px;
+}
+
+.futuro-carta {
+    background-color: #3c4043;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgb(34, 13, 70, 0.75);
+    border: 2px solid #306bff;
+}
+
+.futuro-carta-text {
+    font-family: 'Maven Pro', sans-serif;
+    color: #306bff;
+    font-weight: 300;
+}
+
+.futuro-foto {
+    text-align: center;
+}
+
+.futuro-foto-item {
+    border-radius: 50%;
+    width: 350px;
+    box-shadow: 0px 0px 20px 6px rgb(34, 13, 70);
+    margin-top: 15px;
+}
+
+.futuro-foto-item:hover {
+    opacity: 90%;
+    transform: scale(1.07);
+    transition: 0.3s;
+}
+
+/*Receitas*/
+
+.receita-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.receita-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+}
+
+.receita-box {
+    display: flex;
+    border: 4px solid #306bff;
+    flex-direction: column;
+    margin: 0px 35px;
+    padding: 35px 15px;
+    border-radius: 10px;
+}
+
+.receita-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.receita-img-item {
+    height: 300px;
+    margin-bottom: 10px;
+    border: 2px solid #306bff;
+    border-radius: 3%;
+    box-shadow: 0px 0px 20px 6px rgb(34, 13, 70);
+}
+
+.receita-img-item:hover {
+    opacity: 70%;
+    transform: scale(1.07);
+    transition: 0.5s;
+}
+
+.receita-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    margin-right: 25px;
+}
+
+.receita-name-item {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 0px;
+}
+
+.comer-quem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 100px 0px 100px;
+    gap: 50px;
+}
+
+.mila-eu {
+    width: 350px;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 20px 6px rgb(34, 13, 70);
+}
+
+.mila-eu:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.mila-eu-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: #306bff;
+    text-align: center;
+    font-size: 38px;
+
+}
+
+
+/*Receitas exemplos*/
+
+.japa-um {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.japa-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+
+}
+
+.japa-img {
+    height: 450px;
+    margin-bottom: 10px;
+    border: 2px solid #306bff;
+    border-radius: 3%;
+    box-shadow: 0px 0px 20px 6px rgb(34, 13, 70);
+}
+
+.japa-dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.japa-ingrediente-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0px 5px;
+}
+
+.japa-ingrediente {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: #737a7f;
+    text-align: center;
+    list-style-type: disc;
+    font-size: 19px;
+}
+
+.japa-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.japa-preparo-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0px 5px;
+}
+
+.japa-preparo {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: #737a7f;
+    text-align: center;
+    list-style-type: disc;
+    font-size: 19px;
+    margin: 0px 160px;
+}
+
+.link-comer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.btn {
+    background-color: #202124;
+    padding: 12px 24px;
+    color: #306bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 0px 0px 4px 15px #220d46;
+}
+
+.link-comer-a {
+    color: #306bff;
+}
+
+.btn:hover {
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+
+.h1-curiosidades {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: #306bff;
+    text-align: center;
+    margin: 25px 35px;
+}
+
+.h2-curiosidades {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: #9d6df1;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    border-bottom: 2px solid #737a7f11;
+    padding-bottom: 40px;
+}
+
+.historia-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 55px;
+    padding: 25px;
+    border: 4px solid #306bff;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 40px rgb(34, 13, 70, 0.75);
+}
+
+.historia-img-item {
+    width: 300px;
+    border: 2px solid #306bff;
+    box-shadow: 0px 0px 40px rgb(34, 13, 70, 0.75);
+    border-radius: 5%;
+}
+
+.historia-img-item:hover {
+    transform: scale(1.08);
+    transition: 0.3s;
+}
+
+.historia-name {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.historia-name-item {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    color: #306bff;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.divertidamente-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px 55px;
+    padding: 25px;
+    border: 4px solid #306bff;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 40px rgb(34, 13, 70, 0.75);
+}
+
+.divertidamente-img-item {
+    width: 325px;
+    border: 2px solid #306bff;
+    box-shadow: 0px 0px 40px rgb(34, 13, 70, 0.75);
+    border-radius: 10px;
+    
+}
+
+.divertidamente-img-item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
